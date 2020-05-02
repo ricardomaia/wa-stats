@@ -18,7 +18,7 @@ while ($row = $results->fetchArray()) {
 <style>
     #chartdiv {
         width: 100%;
-        height: 800px;
+        height: 50vh;
     }
 </style>
 
