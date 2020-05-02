@@ -1,5 +1,7 @@
 # wa-stats
 
+![alt text](https://raw.githubusercontent.com/ricardomaia/wa-stats/master/screenshot.png?raw=true)
+
 ## Export Whatsapp chats
 
 1) Go to "Settings" > "Chats" > "Chat history" > "Export chat".
@@ -14,4 +16,3 @@
 ## Statistics
 1) When imporation is finished, open "index.php" (GUI) to see chat statistics.
 
-![alt text](https://raw.githubusercontent.com/ricardomaia/wa-stats/master/screenshot.png?raw=true)
