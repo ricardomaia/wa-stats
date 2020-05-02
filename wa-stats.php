@@ -33,7 +33,7 @@ $db->query("CREATE TABLE IF NOT EXISTS \"stats\" (
 
 foreach ($files as $file) {
 
-    $re = '/(^(?<date>\d{1,2}\/\d{1,2}\/\d{1,2}),\s(?<time>\d{1,2}:\d{1,2})\s-\s(?<user>.*?):)|(?<word>[a-zA-Zà-úÀ-Ú0-9]+)/';
+    $re = '/(^(?<date>\d{1,2}\/\d{1,2}\/\d{1,2}),\s(?<time>\d{1,2}:\d{1,2})\s-\s(?<user>.*?):)|(?<word>[a-zA-Zà-úÀ-Ú0-9]+|😬|🤣|😂|😅|😉|👍|👍🏿|👍🏼|🙏|🙌|✌|😁|👏|🥳|👆|😄|😜|😝|😞|🤤|🤔|🙄|😳|😱|😷|🥺|💪🏼|👊🏼|🤕|👌🏻|😘|😡|😕|☹|😒|😖|😤|😍|😏|🔝|😭|😋|💋|❤|💤|💩|🤩)/';
     $handle = fopen($file, "r");
 
 
@@ -51,8 +51,8 @@ foreach ($files as $file) {
                 $tokens = $matches["word"];
                 foreach ($tokens as $word) {
                     $user = $matches["user"][0];
-                    if (!empty($user) and !empty($word) and !in_array($word, $stop_words)) {
-                        $word = trim(strtolower($word));
+                    $word = trim(strtolower($word));
+                    if (!empty($user) and !empty($word) and !in_array($word, $stop_words)) {                        
                         $sql = "INSERT INTO stats ('id_chat', 'date','time','user','word') VALUES ({$id_chat}, \"{$formatedDate}\", \"{$formatedTime}\", \"{$user}\", \"{$word}\") ";
                         echo $sql . PHP_EOL;
                         $db->query($sql);
