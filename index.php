@@ -17,7 +17,7 @@
     $labels = "";
     $data = "";
 
-    if (isset($_GET['op'])) $option = $_GET['op'];
+    $option = isset($_GET['op']) ? $_GET['op'] : 'time_of_the_day';
 
     switch ($option) {
         case "messages_by_year":
