@@ -11,9 +11,9 @@
      * @version     0.1.0
      * @todo        Parse emoji characters.
      */
-    include("db.php");
 
-    $db = new MyDB('db.sqlite');
+    $dbfile = './db.sqlite';
+    $db = new SQLite3($dbfile);
     $labels = "";
     $data = "";
 
@@ -110,3 +110,5 @@
   </body>
 
   </html>
+
+  <?php $db->close(); ?>
