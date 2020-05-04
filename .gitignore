@@ -2,3 +2,4 @@
 *.sqlite.*
 chats
 chats.*
+!chats.example
