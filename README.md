@@ -1,5 +1,7 @@
 # wa-stats
 
+![GitHub issues](https://img.shields.io/github/issues/ricardomaia/wa-stats?style=for-the-badge)
+
 ![alt text](https://raw.githubusercontent.com/ricardomaia/wa-stats/master/screenshot.png?raw=true)
 
 ## Export Whatsapp chats
@@ -9,6 +11,8 @@
 3. Into message box, select "Without media".
 4. Send chat to destination... Google Drive, e-mail etc.
 5. Put chat history files into "chats" directory of this app.
+
+https://faq.whatsapp.com/en/android/23756533
 
 ## Importing chats
 
