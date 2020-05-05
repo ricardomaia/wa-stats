@@ -1,5 +1,5 @@
 5/1/20, 00:43 - Messages to this chat and calls are now secured with end-to-end encryption. Tap for more info.
-5/2/20, 21:24 - Alice: Hey Bob, what do you about instant messsage apps?
+5/2/20, 21:24 - Alice: Hey Bob, what do think you about instant message apps?
 5/2/20, 21:24 - Bob: It's great! Now I can chat with you anytime! 😁
 5/3/20, 22:03 - Alice: live location shared
 5/3/20, 22:05 - Alice: location: https://maps.google.com/?q=-22.8353311,-18.0201005
