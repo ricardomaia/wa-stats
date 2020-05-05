@@ -1,7 +1,6 @@
 # wa-stats
 
 [![GitHub issues](https://img.shields.io/github/issues/ricardomaia/wa-stats)](https://github.com/ricardomaia/wa-stats/issues)
-
 ![GitHub](https://img.shields.io/github/license/ricardomaia/wa-stats)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ricardomaia/wa-stats?include_prereleases)
 ![GitHub milestones](https://img.shields.io/github/milestones/open/ricardomaia/wa-stats)
