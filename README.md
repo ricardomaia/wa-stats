@@ -37,7 +37,7 @@ Press Ctrl-C to quit.
 
 2. Open your browser at http://localhost:8000/
 
-A visualização de emojis depende da fontes TTF disponíveis em seu sistema operacional. No Windows 10 este recurso é provido pela fonte Segoe UI Emoji.
+Viewing emojis depends on the TTF fonts available on your operating system. In Windows 10, this feature is provided by the Segoe UI Emoji font.
 
 https://docs.microsoft.com/en-us/typography/font-list/segoe-ui-emoji
 
