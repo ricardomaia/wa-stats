@@ -36,3 +36,14 @@ Press Ctrl-C to quit.
 ```
 
 2. Open your browser at http://localhost:8000/
+
+A visualização de emojis depende da fontes TTF disponíveis em seu sistema operacional. No Windows 10 este recurso é provido pela fonte Segoe UI Emoji.
+
+https://docs.microsoft.com/en-us/typography/font-list/segoe-ui-emoji
+
+# 3rd party sources
+
+- https://getbootstrap.com/
+- https://www.amcharts.com/
+- https://github.com/BlackrockDigital/startbootstrap-sb-admin
+- https://datatables.net/

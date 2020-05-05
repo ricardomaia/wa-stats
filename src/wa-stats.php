@@ -5,11 +5,12 @@
  * 
  * Quick and dirty Whatsapp statistics.
  * 
- * @author      Ricardo Maia
+ * @see         https://github.com/ricardomaia/wa-stats
+ *
+ * @author      Ricardo Maia <rsmaia@gmail.com>
  * @copyright   2020 Ricardo Maia
  * @link        https://github.com/ricardomaia/wa-stats.git
  * @license     https://www.gnu.org/licenses/gpl-3.0.en.html
- * @version     0.1.4
  * 
  */
 

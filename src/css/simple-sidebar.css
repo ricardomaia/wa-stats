@@ -10,10 +10,10 @@ body {
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
-  -webkit-transition: margin .25s ease-out;
-  -moz-transition: margin .25s ease-out;
-  -o-transition: margin .25s ease-out;
-  transition: margin .25s ease-out;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
 }
 
 #sidebar-wrapper .sidebar-heading {
@@ -46,4 +46,31 @@ body {
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+.list-group-item-action {
+  color: #fefefe;
+}
+
+.list-group-item-action:hover {
+  color: violet;
+}
+
+.bg-dark {
+  background-color: #5c6066;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fefefe;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fefefe;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: lightcoral;
 }

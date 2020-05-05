@@ -79,7 +79,7 @@ switch ($option) {
 
         <!-- Sidebar -->
         <div class="bg-dark border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading"><img src="images/wa-stats-2.png" style="height: 62px;"></div>
+            <div class="sidebar-heading"><img src="images/wa-stats-logo-0.svg" style="height: 72px;"></div>
             <div class=" list-group list-group-flush">
 
                 <a href="?op=time_of_the_day" class="list-group-item list-group-item-action bg-dark">Time of the day</a>
@@ -97,7 +97,7 @@ switch ($option) {
         <div id="page-content-wrapper">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom">
-                <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+                <button class="btn btn-primary btn-sm" id="menu-toggle">Toggle Menu</button>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
