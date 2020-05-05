@@ -3,6 +3,8 @@
 ![GitHub issues](https://img.shields.io/github/issues/ricardomaia/wa-stats)
 ![GitHub](https://img.shields.io/github/license/ricardomaia/wa-stats)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ricardomaia/wa-stats?include_prereleases)
+![GitHub milestones](https://img.shields.io/github/milestones/open/ricardomaia/wa-stats)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/ricardomaia/wa-stats)
 
 ![alt text](https://raw.githubusercontent.com/ricardomaia/wa-stats/master/screenshot.png?raw=true)
 
