@@ -30,12 +30,12 @@ setlocale(LC_ALL, 'en_US.utf-8');
 /**
  * Database file path
  */
-$dbfile = './db.sqlite';
+$dbfile = '../db.sqlite';
 
 /**
  * Set chat history directory.
  */
-$files = glob('chats/*.{txt}', GLOB_BRACE);
+$files = glob('../chats/*.{txt}', GLOB_BRACE);
 
 /**
  * Set id_chat number for first chat file.
