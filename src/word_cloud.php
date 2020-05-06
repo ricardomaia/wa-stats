@@ -16,7 +16,6 @@ $dataset = "";
 
 while ($row = $results->fetchArray()) {
 
-    //$dataset .= "{\"tag\": \"{$row['word']}\", \"count\": \"{$row['Total']}\" },";
     $dataset .= "{$row['word']},";
 }
 ?>
@@ -69,6 +68,3 @@ while ($row = $results->fetchArray()) {
 
     }); // end am4core.ready()
 </script>
-
-<!-- HTML -->
-<div id="chartdiv"></div>
