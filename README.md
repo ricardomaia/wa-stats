@@ -47,3 +47,45 @@ https://docs.microsoft.com/en-us/typography/font-list/segoe-ui-emoji
 - https://www.amcharts.com/
 - https://github.com/BlackrockDigital/startbootstrap-sb-admin
 - https://datatables.net/
+
+# WhatsApp message patterns
+
+## System messages
+
+{date}, {time} - Messages to this group are now secured with end-to-end encryption. Tap for more info.
+{date}, {time} - Messages to this chat and calls are now secured with end-to-end encryption. Tap for more info.
+{date}, {time} - {user} changed this group's settings to allow only admins to edit this group's info
+{date}, {time} - {user} changed this group's icon
+{date}, {time} - {user} changed the subject from {group_name} to {group_name}
+{date}, {time} - {user} changed the group description
+{date}, {time} - {user}'s security code changed. Tap for more info.
+{date}, {time} - {user} joined using this group's invite link
+{date}, {time} - {user} added you
+{date}, {time} - {user} added {another-user}
+{date}, {time} - {another-user} was added
+{date}, {time} - {user} added {+1 22 9999-9999}
+{date}, {time} - {user} removed {another-user}
+{date}, {time} - {user} left
+{date}, {time} - {user} changed to {user}
+{date}, {time} - {user} This message was deleted
+{date}, {time} - You deleted this message
+
+## User messages
+
+{date}, {time} - {user}: {message}
+{date}, {time} - {user}: {message} @{another-user}
+{date}, {time} - {user}: {message} @{12299999999}
+{date}, {time} - {user}: live location shared
+{date}, {time} - {user}: location: https://maps.google.com/?q=-{lat},{long}
+
+### Media "WITHOUT MEDIA"
+
+{date}, {time} - {user}: <Media omitted>
+{date}, {time} - {user}: {contact-name}.vcf (file attached)
+
+### Media "INCLUDE MEDIA"
+
+{date}, {time} - {user}: {image-file-name.(jpg|png)} (file attached)
+{date}, {time} - {user}: {video-file-name}.mp4 (file attached)
+{date}, {time} - {user}: {audio-file-name}.opus (file attached)
+{date}, {time} - {user}: {sticker-name}.webp (file attached)

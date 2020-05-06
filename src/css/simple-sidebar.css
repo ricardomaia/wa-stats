@@ -53,7 +53,7 @@ body {
 }
 
 .list-group-item-action:hover {
-  color: violet;
+  color: #f5728a;
 }
 
 .bg-dark {
@@ -72,5 +72,5 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: lightcoral;
+  color: #f5728a;
 }

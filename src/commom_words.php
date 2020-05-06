@@ -68,11 +68,8 @@ while ($row = $results->fetchArray()) {
         var hoverState = series.labels.template.states.create("hover");
         hoverState.properties.fill = am4core.color("#FF0000");
         var title = chart.titles.create();
-        title.text = "TOP common words";
         title.fontSize = 28;
         title.fontWeight = "800";
 
     }); // end am4core.ready()
 </script>
-<!-- HTML -->
-<div id="chartdiv"></div>
