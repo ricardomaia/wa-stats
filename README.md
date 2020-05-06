@@ -6,7 +6,7 @@
 ![GitHub milestones](https://img.shields.io/github/milestones/open/ricardomaia/wa-stats)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/ricardomaia/wa-stats)
 
-![alt text](https://raw.githubusercontent.com/ricardomaia/wa-stats/master/screenshot.png?raw=true)
+![alt text](https://raw.githubusercontent.com/ricardomaia/wa-stats/develop/screenshot.png)
 
 ## Export Whatsapp chats
 
