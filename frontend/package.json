@@ -1,5 +1,8 @@
 {
-  "name": "frontend",
+  "name": "wa-stats-frontend",
+  "author": "Ricardo Maia <rsmaia@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/ricardomaia/wa-stats#readme",
   "version": "0.1.0",
   "private": true,
   "scripts": {
