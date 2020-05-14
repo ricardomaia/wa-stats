@@ -1,0 +1,25 @@
+{
+  "name": "wa-stats-backend",
+  "version": "0.0.1",
+  "description": "Quick and dirty WhatsApp statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardomaia/wa-stats.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "node",
+    "vuejs",
+    "statistics"
+  ],
+  "author": "Ricardo Maia <rsmaia@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ricardomaia/wa-stats/issues"
+  },
+  "homepage": "https://github.com/ricardomaia/wa-stats#readme"
+}
