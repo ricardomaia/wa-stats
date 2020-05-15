@@ -4,6 +4,11 @@ const reload = require('reload')
 const bodyParser = require('body-parser')
 const logger = require('morgan')
 const cors = require('cors')
+const dotenv = require('dotenv')
+
+// Environment Configurations
+dotenv.config({ path: `${__dirname} /../.env` })
+const env = process.env.NODE_ENV
 
 // Routes
 const importChats = require('./routes/import-chats')
@@ -15,8 +20,9 @@ app.use(express.urlencoded({ extended: false }))
 
 const corsOptions = {
   origin: '*',
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+  optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
+
 app.use(cors(corsOptions))
 app.set('port', process.env.PORT || 3000)
 app.use(express.static('public'))
