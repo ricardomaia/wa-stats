@@ -28,7 +28,8 @@
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "sqlite3": "^4.2.0",
-    "text-encoding": "^0.7.0"
+    "text-encoding": "^0.7.0",
+    "url-parse": "^1.5.1"
   },
   "devDependencies": {
     "cors": "^2.8.5",
@@ -41,7 +42,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "jest": "^26.0.1",
     "nodemon": "^2.0.3",
-    "reload": "^3.0.4",
+    "reload": "^3.1.1",
     "standard": "^14.3.4"
   },
   "author": "Ricardo Maia <rsmaia@gmail.com>",
